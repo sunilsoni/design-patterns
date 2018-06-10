@@ -32,5 +32,4 @@ public class Client {
         return instance;
     }
 
-
 }
