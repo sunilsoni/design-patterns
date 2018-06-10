@@ -13,6 +13,6 @@ public class Client {
 
     public static void printMessage(MessageCreator creator) {
         Message msg = creator.getMessage();
-        System.out.println(msg);
+        System.out.println(msg.getContent());
     }
 }
