@@ -1,30 +1,29 @@
 package com.designpattern.factory.simple_factory;
 
 /**
- * Represents a product information post. 
- *
+ * Represents a product information post.
  */
-public class ProductPost extends Post{
+public class ProductPost extends Post {
 
-	private String imageUrl;
-	
-	private String name;
+    private String imageUrl;
 
-	public String getImageUrl() {
-		return imageUrl;
-	}
+    private String name;
 
-	public void setImageUrl(String imageUrl) {
-		this.imageUrl = imageUrl;
-	}
+    public String getImageUrl() {
+        return imageUrl;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
 }

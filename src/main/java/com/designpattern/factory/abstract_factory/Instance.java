@@ -2,7 +2,7 @@ package com.designpattern.factory.abstract_factory;
 
 //Represents an abstract product
 public interface Instance {
-    enum Capacity{micro, small, large}
+    enum Capacity {micro, small, large}
 
     void start();
 

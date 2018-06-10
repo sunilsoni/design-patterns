@@ -8,7 +8,7 @@ public class GoogleCloudStorage implements Storage {
 
     public GoogleCloudStorage(int capacityInMib) {
         //Use gcp api
-        System.out.println("Allocated "+capacityInMib+" on Google Cloud Storage");
+        System.out.println("Allocated " + capacityInMib + " on Google Cloud Storage");
     }
 
     @Override

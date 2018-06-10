@@ -7,31 +7,30 @@ import java.time.LocalDate;
 
 /**
  * Represents a news post.
- *
  */
 @EqualsAndHashCode
 @ToString
-public class NewsPost extends Post{
+public class NewsPost extends Post {
 
-	private String headline;
-	
-	private LocalDate newsTime;
+    private String headline;
 
-	public String getHeadline() {
-		return headline;
-	}
+    private LocalDate newsTime;
 
-	public void setHeadline(String headline) {
-		this.headline = headline;
-	}
+    public String getHeadline() {
+        return headline;
+    }
 
-	public LocalDate getNewsTime() {
-		return newsTime;
-	}
+    public void setHeadline(String headline) {
+        this.headline = headline;
+    }
 
-	public void setNewsTime(LocalDate newsTime) {
-		this.newsTime = newsTime;
-	}
-	
-	
+    public LocalDate getNewsTime() {
+        return newsTime;
+    }
+
+    public void setNewsTime(LocalDate newsTime) {
+        this.newsTime = newsTime;
+    }
+
+
 }

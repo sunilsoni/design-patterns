@@ -9,11 +9,9 @@ import com.designpattern.factory.factory_method.message.TextMessage;
  */
 public class TextMessageCreator extends MessageCreator {
 
-	@Override
-	public Message createMessage() {
-		return new TextMessage();
-	}
-
-
+    @Override
+    public Message createMessage() {
+        return new TextMessage();
+    }
 
 }

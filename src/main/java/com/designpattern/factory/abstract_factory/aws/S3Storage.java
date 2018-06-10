@@ -8,7 +8,7 @@ public class S3Storage implements Storage {
 
     public S3Storage(int capacityInMib) {
         //Use aws s3 api
-        System.out.println("Allocated "+capacityInMib+" on S3");
+        System.out.println("Allocated " + capacityInMib + " on S3");
     }
 
     @Override

@@ -19,7 +19,7 @@ public class GoogleComputeEngineInstance implements Instance {
 
     @Override
     public void attachStorage(Storage storage) {
-        System.out.println("Attached "+storage+" to Compute engine instance");
+        System.out.println("Attached " + storage + " to Compute engine instance");
     }
 
     @Override

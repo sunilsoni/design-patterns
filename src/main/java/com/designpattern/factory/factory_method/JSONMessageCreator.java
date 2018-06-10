@@ -9,10 +9,10 @@ import com.designpattern.factory.factory_method.message.Message;
  */
 public class JSONMessageCreator extends MessageCreator {
 
-	@Override
-	public Message createMessage() {
-		return new JSONMessage();
-	}
+    @Override
+    public Message createMessage() {
+        return new JSONMessage();
+    }
 
-	
+
 }

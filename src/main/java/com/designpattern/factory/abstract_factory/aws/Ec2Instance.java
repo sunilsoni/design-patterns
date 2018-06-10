@@ -19,7 +19,7 @@ public class Ec2Instance implements Instance {
 
     @Override
     public void attachStorage(Storage storage) {
-        System.out.println("Attached "+storage+" to Ec2Instance");
+        System.out.println("Attached " + storage + " to Ec2Instance");
     }
 
     @Override
