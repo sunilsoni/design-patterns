@@ -2,10 +2,7 @@ package com.designpattern.factory.simple_factory;
 
 import com.designpattern.factory.abstract_factory.ResourceFactory;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.rules.Timeout;
 
 @Slf4j
@@ -31,15 +28,21 @@ public class SimpleFactoryTest {
     @Test
     public void createPostBlogTest() {
         Post post = PostFactory.createPost("blog");
+
+        Assert.assertNotNull(post);
     }
 
     @Test
     public void createPostNewsTest() {
         Post post = PostFactory.createPost("news");
+
+        Assert.assertNotNull(post);
     }
 
     @Test
     public void createPostProductTest() {
         Post post = PostFactory.createPost("product");
+
+        Assert.assertNotNull(post);
     }
 }
