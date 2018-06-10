@@ -11,13 +11,10 @@ public class FactoryMethodTest {
 
     @Rule
     public Timeout globalTimeout = Timeout.seconds(10);
+
     long start;
+
     private ResourceFactory factory;
-
-    @BeforeClass
-    public static void setup() {
-
-    }
 
     @Before
     public void start() {

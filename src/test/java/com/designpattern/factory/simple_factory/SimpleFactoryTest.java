@@ -2,7 +2,10 @@ package com.designpattern.factory.simple_factory;
 
 import com.designpattern.factory.abstract_factory.ResourceFactory;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
 import org.junit.rules.Timeout;
 
 @Slf4j
@@ -10,13 +13,10 @@ public class SimpleFactoryTest {
 
     @Rule
     public Timeout globalTimeout = Timeout.seconds(5);
+
     long start;
+
     private ResourceFactory factory;
-
-    @BeforeClass
-    public static void setup() {
-
-    }
 
     @Before
     public void start() {
