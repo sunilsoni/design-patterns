@@ -10,7 +10,6 @@ import org.junit.rules.Timeout;
 
 @Slf4j
 public class SimpleFactoryTest {
-
     @Rule
     public Timeout globalTimeout = Timeout.seconds(5);
 

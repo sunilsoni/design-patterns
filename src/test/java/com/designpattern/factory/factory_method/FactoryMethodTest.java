@@ -8,7 +8,6 @@ import org.junit.rules.Timeout;
 
 @Slf4j
 public class FactoryMethodTest {
-
     @Rule
     public Timeout globalTimeout = Timeout.seconds(10);
 
