@@ -1,3 +1,11 @@
 = Design Patterns in Java:
 
- 
+
+== https://github.com/sunilsoni/design-patterns/tree/master/src/test/java/com/designpattern/factory[Factory]
+* https://github.com/sunilsoni/design-patterns/blob/master/src/test/java/com/designpattern/factory/abstract_factory/AbstractFactoryTest.java[*Abstract Factory:*]
+* https://github.com/sunilsoni/design-patterns/blob/master/src/test/java/com/designpattern/factory/factory_method/FactoryMethodTest.java[*Factory Method:*]
+* https://github.com/sunilsoni/design-patterns/blob/master/src/test/java/com/designpattern/factory/simple_factory/SimpleFactoryTest.java[*Simple Factory:*]
+
+== https://github.com/sunilsoni/design-patterns/tree/master/src/test/java/com/designpattern/decorator[Decorator]
+* https://github.com/sunilsoni/design-patterns/blob/master/src/test/java/com/designpattern/decorator/Base64EncodedMessageTest.java[*Message Decorator:*]
+
